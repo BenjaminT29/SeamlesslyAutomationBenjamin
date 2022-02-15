@@ -47,12 +47,12 @@ Feature: As a user, I should be able to login.
     Then the user should see the password in a form of dots
     When the user clicks on the eye icon
     Then the user should see the password text
-  @wip
+  
   Scenario: User access the 'Reset password' button after clicking 'Forgot password?' link
     Given the user is on the login page
     When the user clicks on the Forgot password link
     Then the user should see the Reset Password button
-
+  @wip
   Scenario: User see valid placeholders on Username and Password fields
     Given the user is on the login page
     Then the user should see the "Username or email" text in the username input box

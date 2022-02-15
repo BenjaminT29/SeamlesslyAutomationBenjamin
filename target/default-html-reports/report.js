@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "User access the \u0027Reset password\u0027 button after clicking \u0027Forgot password?\u0027 link",
+  "name": "User see valid placeholders on Username and Password fields",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -28,21 +28,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user clicks on the Forgot password link",
-  "keyword": "When "
+  "name": "the user should see the \"Username or email\" text in the username input box",
+  "keyword": "Then "
 });
 formatter.match({
-  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_Forgot_password_link()"
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_should_see_the_text_in_the_username_input_box(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should see the Reset Password button",
-  "keyword": "Then "
+  "name": "the user should see the \"Password\" text in the password input box",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_should_see_the_Reset_Password_button()"
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_should_see_the_text_in_the_password_input_box(java.lang.String)"
 });
 formatter.result({
   "status": "passed"

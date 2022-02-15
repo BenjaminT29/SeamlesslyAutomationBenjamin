@@ -3,6 +3,7 @@ package com.seamlessly.stepdefinitions;
 
 import com.seamlessly.pages.BasePage;
 import com.seamlessly.pages.LoginPage;
+import com.seamlessly.utilities.BrowserUtils;
 import com.seamlessly.utilities.ConfigurationReader;
 import com.seamlessly.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -98,6 +99,7 @@ public class LoginStepDefs {
     @When("the user clicks on the Forgot password link")
     public void the_user_clicks_on_the_Forgot_password_link() {
         login.forgotPassButton.click();
+        BrowserUtils.waitFor(2);
     }
 
     @Then("the user should see the Reset Password button")

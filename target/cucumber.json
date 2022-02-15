@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-15T12:59:13.698Z",
+        "start_timestamp": "2022-02-15T13:09:33.896Z",
         "before": [
           {
             "result": {
-              "duration": 3283079300,
+              "duration": 3890409400,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 51,
-        "name": "User access the \u0027Reset password\u0027 button after clicking \u0027Forgot password?\u0027 link",
+        "line": 56,
+        "name": "User see valid placeholders on Username and Password fields",
         "description": "",
-        "id": "as-a-user--i-should-be-able-to-login.;user-access-the--reset-password--button-after-clicking--forgot-password?--link",
+        "id": "as-a-user--i-should-be-able-to-login.;user-see-valid-placeholders-on-username-and-password-fields",
         "after": [
           {
             "result": {
-              "duration": 785011200,
+              "duration": 830404300,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6540486800,
+              "duration": 8124812600,
               "status": "passed"
             },
-            "line": 52,
+            "line": 57,
             "name": "the user is on the login page",
             "match": {
               "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
@@ -47,27 +47,39 @@
           },
           {
             "result": {
-              "duration": 130932500,
+              "duration": 110073400,
               "status": "passed"
             },
-            "line": 53,
-            "name": "the user clicks on the Forgot password link",
+            "line": 58,
+            "name": "the user should see the \"Username or email\" text in the username input box",
             "match": {
-              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_Forgot_password_link()"
+              "arguments": [
+                {
+                  "val": "\"Username or email\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_should_see_the_text_in_the_username_input_box(java.lang.String)"
             },
-            "keyword": "When "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 471140800,
+              "duration": 91713200,
               "status": "passed"
             },
-            "line": 54,
-            "name": "the user should see the Reset Password button",
+            "line": 59,
+            "name": "the user should see the \"Password\" text in the password input box",
             "match": {
-              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_should_see_the_Reset_Password_button()"
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_should_see_the_text_in_the_password_input_box(java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ],
         "tags": [
