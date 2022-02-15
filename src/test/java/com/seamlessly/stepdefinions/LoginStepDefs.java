@@ -110,6 +110,17 @@ public class LoginStepDefs {
         throw new io.cucumber.java.PendingException();
     }
 
+    @Then("the user should see the {string} text in the username input box")
+    public void the_user_should_see_the_text_in_the_username_input_box(String string) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
+    @Then("the user should see the {string} text in the password input box")
+    public void the_user_should_see_the_text_in_the_password_input_box(String string) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
 
 
 }
