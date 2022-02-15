@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="Hooks class added" />
+    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="User see the password text scenario added">
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,11 +29,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Benjamin\IdeaProjects\SeamlesslyAutomationBenjamin\src\test\resources\features" />
       <recent name="C:\Users\Benjamin\IdeaProjects\SeamlesslyAutomationBenjamin" />
       <recent name="C:\Users\Benjamin\IdeaProjects\SeamlesslyAutomationBenjamin\src\test\resources" />
     </key>
@@ -98,7 +101,35 @@
       <option name="project" value="LOCAL" />
       <updated>1644910957785</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Login.feature added">
+      <created>1644911242175</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644911242175</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Login with valid credential scenarios added">
+      <created>1644911288569</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644911288569</updated>
+    </task>
+    <task id="LOCAL-00010" summary="password is seen in form of dots scenarios added">
+      <created>1644911365129</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644911365129</updated>
+    </task>
+    <task id="LOCAL-00011" summary="User see the password text scenario added">
+      <created>1644911423314</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644911423314</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +150,10 @@
     <MESSAGE value="Driver class added" />
     <MESSAGE value="BrowserUtils class added" />
     <MESSAGE value="Hooks class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hooks class added" />
+    <MESSAGE value="Login.feature added" />
+    <MESSAGE value="Login with valid credential scenarios added" />
+    <MESSAGE value="password is seen in form of dots scenarios added" />
+    <MESSAGE value="User see the password text scenario added" />
+    <option name="LAST_COMMIT_MESSAGE" value="User see the password text scenario added" />
   </component>
 </project>

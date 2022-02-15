@@ -35,3 +35,7 @@ Feature: As a user, I should be able to login.
     Then the user should see the password in a form of dots
     When the user clicks on the eye icon
     Then the user should see the password text
+
+  Scenario: User access the 'Reset password' button after clicking 'Forgot password?' link
+    When the user clicks on the Forgot password link
+    Then the user should see the Reset Password button
