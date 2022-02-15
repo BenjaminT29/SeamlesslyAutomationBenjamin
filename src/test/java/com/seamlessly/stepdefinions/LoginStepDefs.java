@@ -62,5 +62,24 @@ public class LoginStepDefs {
         login.passwordBox.sendKeys(Keys.ENTER);
     }
 
+    @Then("the user should NOT be able to login successfully")
+    public void the_user_should_NOT_be_able_to_login_successfully() {
+        String expectedTitle=Driver.get().getTitle();
+        String actualTitle=Driver.get().getTitle();
+        System.out.println("actualTitle = " + actualTitle);
+        Assert.assertEquals("User is NOT able to login",expectedTitle,actualTitle);
+    }
 
+    @Then("the message {string} should be displayed on the page")
+    public void the_message_should_be_displayed_on_the_page(String expectedMessage) {
+        if(expectedMessage.equals("Wrong username or password.")){
+            Assert.assertTrue(login.wrongErrorMessage.isDisplayed());
+            String actualMessage = login.wrongErrorMessage.getText();
+            Assert.assertEquals("The message is NOT displayed properly",expectedMessage,actualMessage );
+        }else if(expectedMessage.equals("Please fill out this field.")){
+            String userValidMessage=login.usernameBox.getAttribute("validationMessage");
+            String passValidMessage=login.passwordBox.getAttribute("validationMessage");
+            Assert.assertTrue(userValidMessage.equals(expectedMessage)||passValidMessage.equals(expectedMessage));
+        }
+    }
 }
