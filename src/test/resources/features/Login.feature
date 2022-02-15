@@ -52,7 +52,7 @@ Feature: As a user, I should be able to login.
     Given the user is on the login page
     When the user clicks on the Forgot password link
     Then the user should see the Reset Password button
-  @wip
+
   Scenario: User see valid placeholders on Username and Password fields
     Given the user is on the login page
     Then the user should see the "Username or email" text in the username input box

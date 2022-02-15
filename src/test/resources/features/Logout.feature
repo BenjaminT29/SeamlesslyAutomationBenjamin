@@ -1,4 +1,7 @@
+@wip
+
 Feature:  Logout Feature
+
   Scenario: User log outs and navigate to login page
     Given the user logs in successfully
     When the user clicks on the user avatar icon

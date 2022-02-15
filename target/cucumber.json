@@ -1,29 +1,28 @@
 [
   {
-    "line": 1,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-02-15T13:09:33.896Z",
+        "start_timestamp": "2022-02-15T13:26:25.092Z",
         "before": [
           {
             "result": {
-              "duration": 3890409400,
-              "status": "passed"
+              "duration": 998500,
+              "status": "skipped"
             },
             "match": {
               "location": "com.seamlessly.stepdefinitions.Hooks.setUp()"
             }
           }
         ],
-        "line": 56,
-        "name": "User see valid placeholders on Username and Password fields",
+        "line": 5,
+        "name": "User log outs and navigate to login page",
         "description": "",
-        "id": "as-a-user--i-should-be-able-to-login.;user-see-valid-placeholders-on-username-and-password-fields",
+        "id": "logout-feature;user-log-outs-and-navigate-to-login-page",
         "after": [
           {
             "result": {
-              "duration": 830404300,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.seamlessly.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -35,51 +34,141 @@
         "steps": [
           {
             "result": {
-              "duration": 8124812600,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 57,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
+            "line": 6,
+            "name": "the user logs in successfully",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 110073400,
-              "status": "passed"
+              "duration": 1998300,
+              "status": "skipped"
             },
-            "line": 58,
-            "name": "the user should see the \"Username or email\" text in the username input box",
+            "line": 7,
+            "name": "the user clicks on the user avatar icon",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Username or email\"",
-                  "offset": 24
-                }
-              ],
-              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_should_see_the_text_in_the_username_input_box(java.lang.String)"
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_user_avatar_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "the user clicks on the Log out link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2998600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T13:26:25.366Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User is NOT able to go back after log out",
+        "description": "",
+        "id": "logout-feature;user-is-not-able-to-go-back-after-log-out",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the user logs in successfully",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the user clicks on the user avatar icon",
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_user_avatar_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "the user clicks on the Log out link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 91713200,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 59,
-            "name": "the user should see the \"Password\" text in the password input box",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Password\"",
-                  "offset": 24
-                }
-              ],
-              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_should_see_the_text_in_the_password_input_box(java.lang.String)"
+            "line": 16,
+            "name": "the user navigates back",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
-            "keyword": "And "
+            "line": 17,
+            "name": "the user should NOT be able to go back to previous page",
+            "match": {},
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -89,11 +178,20 @@
         ]
       }
     ],
-    "name": "As a user, I should be able to login.",
+    "name": "Logout Feature",
     "description": "",
-    "id": "as-a-user--i-should-be-able-to-login.",
+    "id": "logout-feature",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Login.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/Logout.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
