@@ -89,19 +89,16 @@ public class LoginStepDefs {
     }
     @When("the user clicks on the eye icon")
     public void the_user_clicks_on_the_eye_icon() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        login.eyeIcon.click();
     }
 
     @Then("the user should see the password text")
     public void the_user_should_see_the_password_text() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        Assert.assertEquals("Password is NOT displayed in form of dots",login.passwordBox.getAttribute("type"),"text");
     }
     @When("the user clicks on the Forgot password link")
     public void the_user_clicks_on_the_Forgot_password_link() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+       
     }
 
     @Then("the user should see the Reset Password button")

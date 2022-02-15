@@ -25,8 +25,9 @@ public class LoginPage {
 
      @FindBy(css = "p.warning.wrongPasswordMsg")
     public WebElement wrongErrorMessage;
-     
 
+    @FindBy(css = ".toggle-password")
+    public WebElement eyeIcon;
 
 
 }
