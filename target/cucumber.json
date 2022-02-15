@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-15T12:59:13.698Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3283079300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "User access the \u0027Reset password\u0027 button after clicking \u0027Forgot password?\u0027 link",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login.;user-access-the--reset-password--button-after-clicking--forgot-password?--link",
+        "after": [
+          {
+            "result": {
+              "duration": 785011200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6540486800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130932500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the user clicks on the Forgot password link",
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_Forgot_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 471140800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user should see the Reset Password button",
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_should_see_the_Reset_Password_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should be able to login.",
+    "description": "",
+    "id": "as-a-user--i-should-be-able-to-login.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
