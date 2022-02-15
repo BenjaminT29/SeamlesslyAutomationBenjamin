@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="CukesRunner class added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seamlessly/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seamlessly/pages/LoginPage.java" afterDir="false" />
+    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="Forgot password step defs adjusted">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/seamlessly/stepdefinions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seamlessly/stepdefinions/LoginStepDefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644912595033</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Passwor text is seen step defs adjusted">
+      <created>1644913238897</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1644913238897</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Forgot password step defs adjusted">
+      <created>1644913362057</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1644913362057</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +286,8 @@
     <MESSAGE value="Forgot password step definitions added to LoginStepDefs" />
     <MESSAGE value="Placeholders step definitions added to LoginStepDefs" />
     <MESSAGE value="CukesRunner class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CukesRunner class added" />
+    <MESSAGE value="Passwor text is seen step defs adjusted" />
+    <MESSAGE value="Forgot password step defs adjusted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forgot password step defs adjusted" />
   </component>
 </project>
