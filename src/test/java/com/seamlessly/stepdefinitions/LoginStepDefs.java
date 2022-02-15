@@ -1,4 +1,4 @@
-package com.seamlessly.stepdefinions;
+package com.seamlessly.stepdefinitions;
 
 
 import com.seamlessly.pages.BasePage;

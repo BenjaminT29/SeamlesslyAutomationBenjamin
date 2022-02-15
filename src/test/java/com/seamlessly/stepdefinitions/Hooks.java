@@ -1,4 +1,4 @@
-package com.seamlessly.stepdefinions;
+package com.seamlessly.stepdefinitions;
 
 import com.seamlessly.utilities.Driver;
 import io.cucumber.java.After;

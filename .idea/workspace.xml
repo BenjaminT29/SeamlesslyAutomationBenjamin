@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="Forgot password step defs adjusted">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seamlessly/stepdefinions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seamlessly/stepdefinions/LoginStepDefs.java" afterDir="false" />
+    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="Login.feature file adjusted">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seamlessly/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seamlessly/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,28 @@
       <recent name="com.seamlessly.stepdefinions" />
       <recent name="com.seamlessly.utilities" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeamlesslyAutomationBenjamin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seamlessly.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seamlessly.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.seamlessly.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -236,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644913362057</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Placeholders step defs adjusted">
+      <created>1644913638033</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644913638033</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Login.feature file adjusted">
+      <created>1644913722150</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1644913722150</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,8 +301,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gitignore added" />
-    <MESSAGE value="configuration.properties added" />
     <MESSAGE value="ConfigurationReader class added" />
     <MESSAGE value="Driver class added" />
     <MESSAGE value="BrowserUtils class added" />
@@ -288,6 +324,8 @@
     <MESSAGE value="CukesRunner class added" />
     <MESSAGE value="Passwor text is seen step defs adjusted" />
     <MESSAGE value="Forgot password step defs adjusted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgot password step defs adjusted" />
+    <MESSAGE value="Placeholders step defs adjusted" />
+    <MESSAGE value="Login.feature file adjusted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login.feature file adjusted" />
   </component>
 </project>
