@@ -1,3 +1,5 @@
+
+
 Feature: As a user, I should be able to login.
 
   Scenario: User login with valid credentials
@@ -30,6 +32,7 @@ Feature: As a user, I should be able to login.
       | username   | password    | error message               |
       | Employe11  | Employee123 | Wrong username or password. |
       | Employee11 | Employe123  | Wrong username or password. |
+      | Employe11  | Employe123  | Wrong username or password. |
       |            | Employee123 | Please fill out this field. |
       | Employee11 |             | Please fill out this field. |
       |            |             | Please fill out this field. |
@@ -47,7 +50,7 @@ Feature: As a user, I should be able to login.
     Then the user should see the password in a form of dots
     When the user clicks on the eye icon
     Then the user should see the password text
-  
+
   Scenario: User access the 'Reset password' button after clicking 'Forgot password?' link
     Given the user is on the login page
     When the user clicks on the Forgot password link
@@ -57,3 +60,17 @@ Feature: As a user, I should be able to login.
     Given the user is on the login page
     Then the user should see the "Username or email" text in the username input box
     And the user should see the "Password" text in the password input box
+
+  Scenario Outline: Login with blank credentials
+    Given the user is on the login page
+    When the user enters "<username>" as username
+    And the user enters "<password>" as password
+    And the user clicks on the login button
+    Then the user should see the Fill out message "Please fill out this field."
+
+    @wip
+    Examples:
+      | username | password |
+      | username |          |
+      |          | password |
+      |          |          |

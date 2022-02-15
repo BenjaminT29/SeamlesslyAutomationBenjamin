@@ -1,8 +1,64 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Logout.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Login.feature");
 formatter.feature({
-  "name": "Logout Feature",
+  "name": "As a user, I should be able to login.",
   "description": "",
-  "keyword": "Feature",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Login with blank credentials",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "the user is on the login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "the user enters \"\u003cusername\u003e\" as username",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "the user enters \"\u003cpassword\u003e\" as password",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "the user clicks on the login button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "the user should see the Fill out message \"Please fill out this field.\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ]
+    },
+    {
+      "cells": [
+        "username",
+        ""
+      ]
+    },
+    {
+      "cells": [
+        "",
+        "password"
+      ]
+    },
+    {
+      "cells": [
+        "",
+        ""
+      ]
+    }
+  ],
   "tags": [
     {
       "name": "@wip"
@@ -10,9 +66,9 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "name": "User log outs and navigate to login page",
+  "name": "Login with blank credentials",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
       "name": "@wip"
@@ -20,51 +76,65 @@ formatter.scenario({
   ]
 });
 formatter.before({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "the user logs in successfully",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "the user clicks on the user avatar icon",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_user_avatar_icon()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "the user clicks on the Log out link",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "the user is on the login page",
-  "keyword": "Then "
+  "keyword": "Given "
 });
 formatter.match({
   "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user enters \"username\" as username",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_username(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user enters \"\" as password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_password(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user should see the Fill out message \"Please fill out this field.\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.theUserShouldSeeTheFillOutMessage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
-  "name": "User is NOT able to go back after log out",
+  "name": "Login with blank credentials",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
       "name": "@wip"
@@ -72,61 +142,125 @@ formatter.scenario({
   ]
 });
 formatter.before({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "the user logs in successfully",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "the user clicks on the user avatar icon",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_user_avatar_icon()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "the user clicks on the Log out link",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "the user is on the login page",
-  "keyword": "Then "
+  "keyword": "Given "
 });
 formatter.match({
   "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "the user navigates back",
+  "name": "the user enters \"\" as username",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_username(java.lang.String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "the user should NOT be able to go back to previous page",
+  "name": "the user enters \"password\" as password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_password(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user should see the Fill out message \"Please fill out this field.\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.theUserShouldSeeTheFillOutMessage(java.lang.String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Login with blank credentials",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@wip"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user is on the login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user enters \"\" as username",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_username(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user enters \"\" as password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_password(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user should see the Fill out message \"Please fill out this field.\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.seamlessly.stepdefinitions.LoginStepDefs.theUserShouldSeeTheFillOutMessage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
 });
 });

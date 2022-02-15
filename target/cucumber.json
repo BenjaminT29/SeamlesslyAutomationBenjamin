@@ -3,26 +3,27 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-02-15T13:26:25.092Z",
+        "start_timestamp": "2022-02-15T15:52:53.232Z",
         "before": [
           {
             "result": {
-              "duration": 998500,
-              "status": "skipped"
+              "duration": 4016089700,
+              "status": "passed"
             },
             "match": {
               "location": "com.seamlessly.stepdefinitions.Hooks.setUp()"
             }
           }
         ],
-        "line": 5,
-        "name": "User log outs and navigate to login page",
+        "line": 74,
+        "name": "Login with blank credentials",
         "description": "",
-        "id": "logout-feature;user-log-outs-and-navigate-to-login-page",
+        "id": "as-a-user--i-should-be-able-to-login.;login-with-blank-credentials;;2",
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 876333600,
+              "status": "passed"
             },
             "match": {
               "location": "com.seamlessly.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -30,47 +31,83 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5170673000,
+              "status": "passed"
             },
-            "line": 6,
-            "name": "the user logs in successfully",
-            "match": {},
+            "line": 65,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1998300,
-              "status": "skipped"
+              "duration": 175760600,
+              "status": "passed"
             },
-            "line": 7,
-            "name": "the user clicks on the user avatar icon",
+            "line": 66,
+            "name": "the user enters \"username\" as username",
             "match": {
-              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_user_avatar_icon()"
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_username(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 117933400,
+              "status": "passed"
             },
-            "line": 8,
-            "name": "the user clicks on the Log out link",
-            "match": {},
+            "line": 67,
+            "name": "the user enters \"\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_password(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2998600,
-              "status": "skipped"
+              "duration": 157586000,
+              "status": "passed"
             },
-            "line": 9,
-            "name": "the user is on the login page",
+            "line": 68,
+            "name": "the user clicks on the login button",
             "match": {
-              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244848100,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the user should see the Fill out message \"Please fill out this field.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.theUserShouldSeeTheFillOutMessage(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -82,25 +119,27 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-15T13:26:25.366Z",
+        "start_timestamp": "2022-02-15T15:53:04.213Z",
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1854368500,
+              "status": "passed"
             },
             "match": {
               "location": "com.seamlessly.stepdefinitions.Hooks.setUp()"
             }
           }
         ],
-        "line": 11,
-        "name": "User is NOT able to go back after log out",
+        "line": 75,
+        "name": "Login with blank credentials",
         "description": "",
-        "id": "logout-feature;user-is-not-able-to-go-back-after-log-out",
+        "id": "as-a-user--i-should-be-able-to-login.;login-with-blank-credentials;;3",
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 860611800,
+              "status": "passed"
             },
             "match": {
               "location": "com.seamlessly.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -108,66 +147,200 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 4378828800,
+              "status": "passed"
             },
-            "line": 12,
-            "name": "the user logs in successfully",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 999700,
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "the user clicks on the user avatar icon",
-            "match": {
-              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_user_avatar_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14,
-            "name": "the user clicks on the Log out link",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 998400,
-              "status": "skipped"
-            },
-            "line": 15,
+            "line": 65,
             "name": "the user is on the login page",
             "match": {
               "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 104943500,
+              "status": "passed"
             },
-            "line": 16,
-            "name": "the user navigates back",
-            "match": {},
+            "line": 66,
+            "name": "the user enters \"\" as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_username(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 137925600,
+              "status": "passed"
             },
-            "line": 17,
-            "name": "the user should NOT be able to go back to previous page",
-            "match": {},
+            "line": 67,
+            "name": "the user enters \"password\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122924300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "the user clicks on the login button",
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153904300,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the user should see the Fill out message \"Please fill out this field.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.theUserShouldSeeTheFillOutMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T15:53:11.839Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2292508600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "Login with blank credentials",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login.;login-with-blank-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 891999300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6028411700,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126927800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "the user enters \"\" as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154904000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "the user enters \"\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_enters_as_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148913500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "the user clicks on the login button",
+            "match": {
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.the_user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164905000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the user should see the Fill out message \"Please fill out this field.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.seamlessly.stepdefinitions.LoginStepDefs.theUserShouldSeeTheFillOutMessage(java.lang.String)"
+            },
             "keyword": "Then "
           }
         ],
@@ -178,20 +351,11 @@
         ]
       }
     ],
-    "name": "Logout Feature",
+    "name": "As a user, I should be able to login.",
     "description": "",
-    "id": "logout-feature",
+    "id": "as-a-user--i-should-be-able-to-login.",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Logout.feature",
-    "tags": [
-      {
-        "name": "@wip",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
   }
 ]

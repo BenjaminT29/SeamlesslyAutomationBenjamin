@@ -1,3 +1,5 @@
+
+
 Feature: As a user, I should be able to login.
 
   Scenario: User login with valid credentials
@@ -58,3 +60,4 @@ Feature: As a user, I should be able to login.
     Given the user is on the login page
     Then the user should see the "Username or email" text in the username input box
     And the user should see the "Password" text in the password input box
+

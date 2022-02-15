@@ -32,8 +32,8 @@ public class LoginPage {
 
     public void login(){
         Driver.get().get(ConfigurationReader.get("url"));
-        usernameBox.sendKeys("username");
-        passwordBox.sendKeys("password");
+        usernameBox.sendKeys(ConfigurationReader.get("username"));
+        passwordBox.sendKeys(ConfigurationReader.get("password"));
         loginButton.click();
     }
 }

@@ -24,8 +24,7 @@ public class LogoutStepDefs {
 
     @Then("the user should NOT be able to go back to previous page")
     public void the_user_should_NOT_be_able_to_go_back_to_previous_page() {
-        String expectedTitle=Driver.get().getTitle();
-        System.out.println("expectedTitle = " + expectedTitle);
+        String expectedTitle="Seamlessly -QA";
         String actualTitle=Driver.get().getTitle();
         Assert.assertEquals("User is able to go back after log out",expectedTitle,actualTitle);
     }
