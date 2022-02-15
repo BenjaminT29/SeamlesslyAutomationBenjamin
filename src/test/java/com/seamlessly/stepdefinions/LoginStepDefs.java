@@ -98,13 +98,12 @@ public class LoginStepDefs {
     }
     @When("the user clicks on the Forgot password link")
     public void the_user_clicks_on_the_Forgot_password_link() {
-       
+        login.forgotPassButton.click();
     }
 
     @Then("the user should see the Reset Password button")
     public void the_user_should_see_the_Reset_Password_button() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        Assert.assertTrue("Reset Password button is not displayed", login.resetPassButton.isDisplayed());
     }
 
     @Then("the user should see the {string} text in the username input box")
