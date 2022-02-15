@@ -87,4 +87,15 @@ public class LoginStepDefs {
     public void the_user_should_see_the_password_in_a_form_of_dots() {
         Assert.assertEquals("Password is NOT displayed in form of dots",login.passwordBox.getAttribute("type"),"password");
     }
+    @When("the user clicks on the eye icon")
+    public void the_user_clicks_on_the_eye_icon() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
+    @Then("the user should see the password text")
+    public void the_user_should_see_the_password_text() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
 }
