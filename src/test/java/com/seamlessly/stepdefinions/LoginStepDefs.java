@@ -98,4 +98,18 @@ public class LoginStepDefs {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
+    @When("the user clicks on the Forgot password link")
+    public void the_user_clicks_on_the_Forgot_password_link() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
+    @Then("the user should see the Reset Password button")
+    public void the_user_should_see_the_Reset_Password_button() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
+
+
 }
