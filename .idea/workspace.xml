@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="configuration.properties added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seamlessly/utilities/ConfigurationReader.java" afterDir="false" />
-    </list>
+    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="Hooks class added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +36,7 @@
       <recent name="C:\Users\Benjamin\IdeaProjects\SeamlesslyAutomationBenjamin\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.seamlessly.stepdefinions" />
       <recent name="com.seamlessly.utilities" />
     </key>
   </component>
@@ -71,7 +70,35 @@
       <option name="project" value="LOCAL" />
       <updated>1644910668217</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ConfigurationReader class added">
+      <created>1644910796051</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644910796051</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Driver class added">
+      <created>1644910851247</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644910851247</updated>
+    </task>
+    <task id="LOCAL-00006" summary="BrowserUtils class added">
+      <created>1644910908835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644910908835</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Hooks class added">
+      <created>1644910957785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644910957785</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +115,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore added" />
     <MESSAGE value="configuration.properties added" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuration.properties added" />
+    <MESSAGE value="ConfigurationReader class added" />
+    <MESSAGE value="Driver class added" />
+    <MESSAGE value="BrowserUtils class added" />
+    <MESSAGE value="Hooks class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hooks class added" />
   </component>
 </project>
