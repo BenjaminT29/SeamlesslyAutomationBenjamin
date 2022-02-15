@@ -39,3 +39,7 @@ Feature: As a user, I should be able to login.
   Scenario: User access the 'Reset password' button after clicking 'Forgot password?' link
     When the user clicks on the Forgot password link
     Then the user should see the Reset Password button
+
+  Scenario: User see valid placeholders on Username and Password fields
+    Then the user should see the "Username or email" text in the username input box
+    And the user should see the "Password" text in the password input box
