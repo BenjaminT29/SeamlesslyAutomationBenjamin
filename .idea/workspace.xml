@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="LoginStepDefs updated">
+    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="Logout feature file crated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seamlessly/stepdefinitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seamlessly/stepdefinitions/LoginStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seamlessly/stepdefinitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seamlessly/stepdefinitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seamlessly/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seamlessly/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Logout.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644930041352</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Logout feature file crated">
+      <created>1644930663985</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1644930663985</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,7 +336,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BrowserUtils class added" />
     <MESSAGE value="Hooks class added" />
     <MESSAGE value="Login.feature added" />
     <MESSAGE value="Login with valid credential scenarios added" />
@@ -356,6 +360,7 @@
     <MESSAGE value="Login.feature file adjusted" />
     <MESSAGE value="CukesRunner executed" />
     <MESSAGE value="LoginStepDefs updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="LoginStepDefs updated" />
+    <MESSAGE value="Logout feature file crated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logout feature file crated" />
   </component>
 </project>

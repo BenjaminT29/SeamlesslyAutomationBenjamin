@@ -14,7 +14,8 @@ public class BasePage {
     @FindBy(css = "span.user-status-menu-item__header")
     public WebElement dropdownUsername;
 
-
+    @FindBy(partialLinkText = "Log out")
+    public WebElement logOutLink;
 
 
 
