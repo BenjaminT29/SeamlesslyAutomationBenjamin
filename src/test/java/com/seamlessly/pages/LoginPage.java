@@ -1,5 +1,6 @@
 package com.seamlessly.pages;
 
+import com.seamlessly.utilities.ConfigurationReader;
 import com.seamlessly.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,5 +30,10 @@ public class LoginPage {
     @FindBy(css = ".toggle-password")
     public WebElement eyeIcon;
 
-
+    public void login(){
+        Driver.get().get(ConfigurationReader.get("url"));
+        usernameBox.sendKeys("username");
+        passwordBox.sendKeys("password");
+        loginButton.click();
+    }
 }
