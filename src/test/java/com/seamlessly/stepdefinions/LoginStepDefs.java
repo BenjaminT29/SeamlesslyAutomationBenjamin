@@ -82,4 +82,9 @@ public class LoginStepDefs {
             Assert.assertTrue(userValidMessage.equals(expectedMessage)||passValidMessage.equals(expectedMessage));
         }
     }
+
+    @Then("the user should see the password in a form of dots")
+    public void the_user_should_see_the_password_in_a_form_of_dots() {
+        Assert.assertEquals("Password is NOT displayed in form of dots",login.passwordBox.getAttribute("type"),"password");
+    }
 }

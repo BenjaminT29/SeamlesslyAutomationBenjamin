@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="LoginStepDefs class initialized" />
+    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="Invalid login step definitions added to LoginStepDefs">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seamlessly/stepdefinions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seamlessly/stepdefinions/LoginStepDefs.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +39,7 @@
       <recent name="C:\Users\Benjamin\IdeaProjects\SeamlesslyAutomationBenjamin\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.seamlessly.pages" />
       <recent name="com.seamlessly.stepdefinions" />
       <recent name="com.seamlessly.utilities" />
     </key>
@@ -155,7 +158,35 @@
       <option name="project" value="LOCAL" />
       <updated>1644911763928</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="LoginPage class is created">
+      <created>1644911851932</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644911851932</updated>
+    </task>
+    <task id="LOCAL-00017" summary="BasePage class is created">
+      <created>1644911937916</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1644911937916</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Valid login step definitions added to LoginStepDefs">
+      <created>1644912014542</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1644912014542</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Invalid login step definitions added to LoginStepDefs">
+      <created>1644912078081</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644912078081</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +215,10 @@
     <MESSAGE value="valid placeholders scenario added" />
     <MESSAGE value="login without valid credentials scenario outline&#10; added" />
     <MESSAGE value="LoginStepDefs class initialized" />
-    <option name="LAST_COMMIT_MESSAGE" value="LoginStepDefs class initialized" />
+    <MESSAGE value="LoginPage class is created" />
+    <MESSAGE value="BasePage class is created" />
+    <MESSAGE value="Valid login step definitions added to LoginStepDefs" />
+    <MESSAGE value="Invalid login step definitions added to LoginStepDefs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Invalid login step definitions added to LoginStepDefs" />
   </component>
 </project>
