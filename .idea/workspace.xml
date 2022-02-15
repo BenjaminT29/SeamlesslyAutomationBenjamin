@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="User see the password text scenario added">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-    </list>
+    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="LoginStepDefs class initialized" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +127,35 @@
       <option name="project" value="LOCAL" />
       <updated>1644911423314</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Forgot password scenario added">
+      <created>1644911479614</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644911479614</updated>
+    </task>
+    <task id="LOCAL-00013" summary="valid placeholders scenario added">
+      <created>1644911524069</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644911524069</updated>
+    </task>
+    <task id="LOCAL-00014" summary="login without valid credentials scenario outline&#10; added">
+      <created>1644911674197</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644911674197</updated>
+    </task>
+    <task id="LOCAL-00015" summary="LoginStepDefs class initialized">
+      <created>1644911763928</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644911763928</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +180,10 @@
     <MESSAGE value="Login with valid credential scenarios added" />
     <MESSAGE value="password is seen in form of dots scenarios added" />
     <MESSAGE value="User see the password text scenario added" />
-    <option name="LAST_COMMIT_MESSAGE" value="User see the password text scenario added" />
+    <MESSAGE value="Forgot password scenario added" />
+    <MESSAGE value="valid placeholders scenario added" />
+    <MESSAGE value="login without valid credentials scenario outline&#10; added" />
+    <MESSAGE value="LoginStepDefs class initialized" />
+    <option name="LAST_COMMIT_MESSAGE" value="LoginStepDefs class initialized" />
   </component>
 </project>
