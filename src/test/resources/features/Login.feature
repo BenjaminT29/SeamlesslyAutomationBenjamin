@@ -27,3 +27,11 @@ Feature: As a user, I should be able to login.
     When the user enters "Employee11" as username
     And the user enters "Employee123" as password
     Then the user should see the password in a form of dots
+
+  Scenario: User see the password text by clicking the eye icon
+
+    When the user enters "Employee11" as username
+    And the user enters "Employee123" as password
+    Then the user should see the password in a form of dots
+    When the user clicks on the eye icon
+    Then the user should see the password text
