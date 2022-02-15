@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="Login.feature file adjusted">
+    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="CukesRunner executed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seamlessly/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seamlessly/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -274,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644913722150</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="CukesRunner executed">
+      <created>1644914043529</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1644914043529</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +307,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ConfigurationReader class added" />
     <MESSAGE value="Driver class added" />
     <MESSAGE value="BrowserUtils class added" />
     <MESSAGE value="Hooks class added" />
@@ -326,6 +331,7 @@
     <MESSAGE value="Forgot password step defs adjusted" />
     <MESSAGE value="Placeholders step defs adjusted" />
     <MESSAGE value="Login.feature file adjusted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login.feature file adjusted" />
+    <MESSAGE value="CukesRunner executed" />
+    <option name="LAST_COMMIT_MESSAGE" value="CukesRunner executed" />
   </component>
 </project>

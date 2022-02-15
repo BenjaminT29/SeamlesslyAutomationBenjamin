@@ -65,8 +65,7 @@ public class LoginStepDefs {
     @Then("the user should NOT be able to login successfully")
     public void the_user_should_NOT_be_able_to_login_successfully() {
         String expectedTitle=Driver.get().getTitle();
-        String actualTitle=Driver.get().getTitle();
-        System.out.println("actualTitle = " + actualTitle);
+        String actualTitle="Seamlessly -QA";
         Assert.assertEquals("User is NOT able to login",expectedTitle,actualTitle);
     }
 
