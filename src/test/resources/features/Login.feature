@@ -22,6 +22,21 @@ Feature: As a user, I should be able to login.
     When the user clicks on the user avatar icon
     Then the user should see the username in the dropdown
 
+  Scenario Outline: User is NOT be able to login without valid credentials
+
+    When the user enters "<username>" as username
+    And the user enters "<password>" as password
+    And the user clicks on the login button
+    Then the user should NOT be able to login successfully
+    And the message "<error message>" should be displayed on the page
+    Examples:
+      | username   | password    | error message               |
+      | employee11 | Employee123 | Wrong username or password. |
+      | Employee11 | employee123 | Wrong username or password. |
+      |            | Employee123 | Please fill out this field. |
+      | Employee11 |             | Please fill out this field. |
+      |            |             | Please fill out this field. |
+
   Scenario: User see the password in a form of dots by default
 
     When the user enters "Employee11" as username
