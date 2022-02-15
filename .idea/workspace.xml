@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="CukesRunner executed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eed27cb8-f7c3-4511-b036-c3174aaff5b0" name="Changes" comment="LoginStepDefs updated">
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -280,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644914043529</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="LoginStepDefs updated">
+      <created>1644929565789</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1644929565789</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +313,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Driver class added" />
     <MESSAGE value="BrowserUtils class added" />
     <MESSAGE value="Hooks class added" />
     <MESSAGE value="Login.feature added" />
@@ -332,6 +337,7 @@
     <MESSAGE value="Placeholders step defs adjusted" />
     <MESSAGE value="Login.feature file adjusted" />
     <MESSAGE value="CukesRunner executed" />
-    <option name="LAST_COMMIT_MESSAGE" value="CukesRunner executed" />
+    <MESSAGE value="LoginStepDefs updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="LoginStepDefs updated" />
   </component>
 </project>

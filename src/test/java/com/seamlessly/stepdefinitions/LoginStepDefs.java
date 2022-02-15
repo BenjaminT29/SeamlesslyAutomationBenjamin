@@ -93,7 +93,7 @@ public class LoginStepDefs {
 
     @Then("the user should see the password text")
     public void the_user_should_see_the_password_text() {
-        Assert.assertEquals("Password is NOT displayed in form of dots",login.passwordBox.getAttribute("type"),"text");
+        Assert.assertEquals("Password is NOT displayed in form of text",login.passwordBox.getAttribute("type"),"text");
     }
     @When("the user clicks on the Forgot password link")
     public void the_user_clicks_on_the_Forgot_password_link() {
