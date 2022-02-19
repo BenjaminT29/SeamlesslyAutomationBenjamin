@@ -2,6 +2,7 @@ package com.seamlessly.stepdefinitions;
 
 
 import com.seamlessly.pages.BasePage;
+import com.seamlessly.pages.Homepage;
 import com.seamlessly.pages.LoginPage;
 import com.seamlessly.utilities.BrowserUtils;
 import com.seamlessly.utilities.ConfigurationReader;
@@ -46,15 +47,15 @@ public class LoginStepDefs {
 
     @When("the user clicks on the user avatar icon")
     public void the_user_clicks_on_the_user_avatar_icon() {
-        new BasePage().avatar.click();
+        new Homepage().avatar.click();
     }
 
     @Then("the user should see the username in the dropdown")
     public void the_user_should_see_the_username_in_the_dropdown() {
-        BasePage basePage=new BasePage();
+        Homepage homepage=new Homepage();
         String expectedUsername = ConfigurationReader.get("username");
-        String actualUsername= basePage.dropdownUsername.getText();
-        Assert.assertTrue("Username is NOT displayed", basePage.dropdownUsername.isDisplayed());
+        String actualUsername= homepage.dropdownUsername.getText();
+        Assert.assertTrue("Username is NOT displayed", homepage.dropdownUsername.isDisplayed());
         Assert.assertEquals("Correct username is NOT displayed",expectedUsername,actualUsername);
     }
 
